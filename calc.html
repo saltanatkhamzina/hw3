@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Homework:3</title>
+</head>
+<body>
+    <div class="header">
+        <div class="calculator">
+            <div class="nums">
+                <input type="number" id="num1" value="0" step="1" name="num1" >
+            </div>
+            <div class="action" id="action_btns">
+                <p><button class="btn" id="plus" onclick="operation='+'">+</button></p>
+                <p><button class="btn" id="minus" onclick="operation='-'" >-</button></p>
+                <p><button class="btn" id="multiply" onclick="operation='*'">*</button></p>
+                <p><button class="btn" id="division" onclick="operation='/'">/</button></p>
+            </div>
+            <div class="nums">
+                <input type="number" id="num2" value="0" step="1" name="num2">
+            </div>
+            <div class="equals">
+                <button class="btn" id="equals">=</button>
+            </div>
+            <div class="nums">
+                <p id="result"></p> 
+            </div>
+        </div>
+    </div>
+<script src="./js/calc.js"></script>
+</body>
+</html>
